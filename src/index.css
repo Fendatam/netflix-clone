@@ -11,6 +11,8 @@ body,
   @apply text-white;
 } */
 
+
+
 .lolo {
   background:
     /* top, transparent black, faked with gradient */
@@ -23,6 +25,27 @@ body,
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+@media (min-width: 768px) {
+  .lolo2 {
+    background:
+      /* top, transparent black, faked with gradient */
+      linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+      /* bottom, image */
+      url(../assets/SA-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.momo {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7));
+}
 }
 
 /* loko {

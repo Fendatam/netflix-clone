@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 
 
-const Navbar = () => {
+const Navbar = ({isClicked, setIsClicked}) => {
 
   const [isDropdown, setIsDropdown] = useState(false);
   const [isArab, setIsArab] = useState("English");
@@ -54,7 +54,7 @@ const Navbar = () => {
               ) : ""}
               </div>
             <div>
-              <button className=' bg-[#e50914] text-white py-1 px-3 rounded-[5px]'><h5>Sign In</h5></button>
+              <button className=' bg-[#e50914] text-white py-1 px-3 rounded-[5px]' onClick={() => setIsClicked(!isClicked)}><h5>Sign In</h5></button>
             </div>
             </div>
           
