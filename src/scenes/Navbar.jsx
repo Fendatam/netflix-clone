@@ -14,8 +14,8 @@ const Navbar = () => {
     return (
       <nav className='py-3 w-full'>
         <div className='flex items-center justify-between mx-auto w-[95vw]'>
-          <div>
-          <img src="./assets/logo.png" alt="logo" />
+          <div className=''>
+          <img src="./assets/logo.png" alt="logo" className='md:w-[200px] w-[150px]' />
            </div>
           <div className='mt-3 flex gap-8'>
         

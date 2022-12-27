@@ -8,7 +8,7 @@ const Footer = () => {
           <div className='flex md:mr-[710px] mb-5'>
               <h5 className='text-gray-400 text-md'>Questions? Call 800-850-1262</h5>
           </div>
-          <div className='grid grid-cols-4 gap-x-24 gap-y-5 text-gray-400 text-md mt-3'>
+          <div className='grid md:grid-cols-4 grid-cols-2 md:gap-x-24 gap-y-5 gap-x-20 text-gray-400 text-md mt-3'>
               <div className=' hover:underline cursor-pointer'>FAQ</div>
               <div className=' hover:underline cursor-pointer'>Help Center</div>
               <div className=' hover:underline cursor-pointer'>Account</div>
@@ -27,7 +27,7 @@ const Footer = () => {
               <div className=' hover:underline cursor-pointer'>Legal Notices</div>
               <div className=' hover:underline cursor-pointer'>Only on Netflix</div>
           </div>
-          <div className='mr-[820px] mt-8'>
+          <div className='md:mr-[820px] mt-8'>
               
            <button className=' bg-black text-white py-4 px-3 flex border-white rounded-[5px] border-[1px] relative' onClick={() => setIsDropdown(!isDropdown)}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
               ) : ""}
           </div>
-          <div className='text-md text-gray-400 mr-[800px] mt-5'>Netflix Saudi Arabia</div>
+          <div className='text-md text-gray-400 md:mr-[800px] mt-5'>Netflix Saudi Arabia</div>
               </div>
    
   )

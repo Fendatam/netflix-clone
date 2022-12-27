@@ -2,13 +2,13 @@ import React from 'react'
 
 const Banner4 = () => {
   return (
-    <section className='md:flex py-12 md:justify-center md:items-center gap-12'>
-          <div className='md:order-last flex'>
+    <section className='md:flex py-12 justify-center items-center gap-12'>
+          <div className='md:order-last flex max-md:items-center max-md:justify-center'>
       <div className='text-white font-opensans'>
-              <h1 className='text-6xl font-semibold'>Create profiles for kids.</h1>
-              <p className='text-3xl mt-4'>Send kids on adventures with their favorite</p>
-              <p className='text-3xl'>characters in a space made just for them—</p>
-              <p className='text-3xl'>free with your membership.</p>
+              <h1 className='md:text-6xl text-4xl font-semibold max-md:text-center'>Create profiles for kids.</h1>
+              <p className='md:text-3xl text-xl max-md:text-center mt-4'>Send kids on adventures with their favorite</p>
+              <p className='md:text-3xl text-xl max-md:text-center'>characters in a space made just for them—</p>
+              <p className='md:text-3xl text-xl max-md:text-center'>free with your membership.</p>
       </div>
           </div>
           <div className='md:order-first flex'>
